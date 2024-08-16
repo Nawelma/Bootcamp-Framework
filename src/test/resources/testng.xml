@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TN Application Test automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.TN.Listeners.Listeners" />
+	</listeners>
+
+	<test name="TN App Test Cases">
+		<classes>
+			<class name="com.TN.TestCases.RegisterTest" />
+			<class name="com.TN.TestCases.LoginTest" />
+			<class name="com.TN.TestCases.ProductTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
