@@ -3,16 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TN.testCases.ProductTest">
+      <class name="com.TN.testCases.RegisterTest">
         <methods>
-          <include name="setup"/>
-          <include name="searchWithValidProduct"/>
-          <include name="searchWithInvalidProduct"/>
           <include name="tearDown"/>
-          <include name="addValidProductAndCompleteCheckout"/>
-          <include name="searchWithNoProduct"/>
+          <include name="setup"/>
+          <include name="registerWithWrongPassword"/>
         </methods>
-      </class> <!-- com.TN.testCases.ProductTest -->
+      </class> <!-- com.TN.testCases.RegisterTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
